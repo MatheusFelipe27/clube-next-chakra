@@ -33,9 +33,9 @@ const Navbar = () => {
           <Flex alignItems="center" justifyContent='space-between' w="100%" marginLeft="9%">
             <Flex alignItems="center">
               <img src="/assets/logo.png" alt="logo" width="70px" height="70px" />
-              <Text id={navbarFixed ? 'teamNameFixed' : 'teamName'} fontSize="22px" pt="6px" cursor="pointer" fontWeight="500">
+              <Link href='/' _hover={{ textDecoration: "none" }} id={navbarFixed ? 'teamNameFixed' : 'teamName'} fontSize="22px" pt="6px" cursor="pointer" fontWeight="500">
                 FC Matheus
-              </Text>
+              </Link>
             </Flex>
   
             <Flex gap="40px" marginRight="9% ">

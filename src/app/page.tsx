@@ -4,8 +4,8 @@ import React, { useState, useEffect } from 'react';
 import { Box, Flex, Text, Link as ChakraLink } from '@chakra-ui/react';
 import NextLink from 'next/link'; // Importe o NextLink em vez de Link do next.js
 import { Image } from '@chakra-ui/react';
-import Navbar from './components/Navbar';
-import Departments from './components/Departments';
+import Navbar from '../components/Navbar';
+import Departments from '../components/Departments';
 
 const Home = () => {
   const [navbarFixed, setNavbarFixed] = useState<boolean>(false);
