@@ -30,6 +30,8 @@ const MyModal= ({openModal, onClose, title, url, type, method}: ModalProps) => {
     onClose();
   };
 
+  console.log(method)
+  console.log(url)
   const add = () => {
     if (method === 'post') {
       url.includes('detalhes')
@@ -107,7 +109,7 @@ const MyModal= ({openModal, onClose, title, url, type, method}: ModalProps) => {
                     value={name}
                   />
                   <Button
-                    colorScheme="teal"
+                    colorScheme="blackAlpha"
                     type="submit"
                     marginTop="1rem"
                     width="100%"
@@ -117,7 +119,6 @@ const MyModal= ({openModal, onClose, title, url, type, method}: ModalProps) => {
                 </form>
               </ModalBody>
               <ModalFooter>
-                {/* Adicione qualquer conteúdo adicional do rodapé aqui */}
               </ModalFooter>
             </ModalContent>
           </Modal>

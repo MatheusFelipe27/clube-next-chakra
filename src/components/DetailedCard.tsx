@@ -81,7 +81,7 @@ const DetailedCard= ({img,name,keyIdx,type}: DetailedCardProps) => {
   return (
     <Box className="detailedCard" borderWidth="1px" borderRadius="lg" p="4" background="white" mb="4">
       <Flex justifyContent="space-between" alignItems="center">
-        <Flex>
+        <Flex gap="10px">
           <IconButton
             aria-label="Edit Process"
             icon={<AiFillEdit />}

@@ -22,7 +22,7 @@ const Navbar = () => {
         <Flex
           w="100vw"
           h="60px"
-          bg={navbarFixed ? 'rgb(45, 45, 45)' : 'transparent'}
+          bg={navbarFixed ? 'rgb(45, 45, 45)' : '#F7F4EE'}
           color={navbarFixed ? 'white' : 'gray.700'}
           px="4"
           position="fixed"
