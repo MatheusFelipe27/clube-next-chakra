@@ -6,6 +6,7 @@ import { GetStaticPaths, GetStaticProps } from "next";
 import Navbar from "../components/Navbar";
 import { Providers } from "../app/providers";
 import { Inter } from 'next/font/google'
+import DepartmentDetails from '../components/DepartmentsDetails';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -17,10 +18,9 @@ interface DepartmentsProps {
 const DepartmentsPage = ({name, image}: DepartmentsProps) => {
   return(
     
-    <div className={inter.className}>
+    <div className={inter.className} style={{backgroundColor: '#F7F4EE'}} >
       <Providers>
-        <Navbar/>
-        <h2>{name}</h2>
+        <DepartmentDetails/>
       </Providers>
     </div>
   );
@@ -36,7 +36,7 @@ export const getStaticPaths : GetStaticPaths= () => {
       },
       {
         params: {
-          id: "financas",
+          id: "finanças",
         },
       },
       {

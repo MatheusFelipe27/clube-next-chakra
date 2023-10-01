@@ -55,32 +55,32 @@ const Home = () => {
             Nossos departamentos
           </Text>
           <Flex display="grid" gridTemplateColumns="repeat(3, 350px)" gap="55px" mb="50px">
-            <NextLink href="/Futebol" passHref>
+            <NextLink href="/futebol" passHref>
               <ChakraLink style={{ textDecoration: 'none', color: 'inherit' }}>
                 <Departments name="Futebol" img="/assets/soccer.png" />
               </ChakraLink>
             </NextLink>
-            <NextLink href="/Medicina" passHref>
+            <NextLink href="/medicina" passHref>
               <ChakraLink style={{ textDecoration: 'none', color: 'inherit' }}>
                 <Departments name="Medicina" img="/assets/medicine.png" />
               </ChakraLink>
             </NextLink>
-            <NextLink href="/Base" passHref>
+            <NextLink href="/base" passHref>
               <ChakraLink style={{ textDecoration: 'none', color: 'inherit' }}>
                 <Departments name="Categoria de base" img="/assets/base.png" />
               </ChakraLink>
             </NextLink>
-            <NextLink href="/Finanças" passHref>
+            <NextLink href="/finanças" passHref>
               <ChakraLink style={{ textDecoration: 'none', color: 'inherit' }}>
                 <Departments name="Finanças" img="/assets/finances.png" />
               </ChakraLink>
             </NextLink>
-            <NextLink href="/Marketing" passHref>
+            <NextLink href="/marketing" passHref>
               <ChakraLink style={{ textDecoration: 'none', color: 'inherit' }}>
                 <Departments name="Marketing" img="/assets/marketing.png" />
               </ChakraLink>
             </NextLink>
-            <NextLink href="/Comunicação" passHref>
+            <NextLink href="/comunicação" passHref>
               <ChakraLink style={{ textDecoration: 'none', color: 'inherit' }}>
                 <Departments name="Comunicação" img="/assets/socialmedia.png" />
               </ChakraLink>
