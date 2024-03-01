@@ -32,10 +32,7 @@ const Home = () => {
   return (
     <>
 
-      <iframe src='http://platform.aprende.ai/embed/0139bcf7-fe4e-422b-9686-2ab8c5e92b34'
-        width="350" height="640" style={{position: 'fixed', bottom: '15px', right: '15px', borderColor: 'transparent' }} 
-        allowTransparency={true}>
-      </iframe >
+<iframe src='http://localhost:3000//embed/3ebc9df2-e0d7-49ac-aa27-3b380d99b4d9' width="350" height="640" style={{position: 'fixed', bottom: '15px', right: '15px', borderColor: 'transparent'}} allowTransparency={true}> </iframe >
       <Navbar />
       <Box marginTop="50px" marginLeft="10%" marginRight="6%" flexDirection="column" gap="50px">
         <Flex  id="homeInitial" justifyContent="space-between">
